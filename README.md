@@ -1,7 +1,6 @@
 # 🎓 Faculty Management System
 
-This is a simple **Faculty Management System** I made using **C**. It uses a **Singly Linked List** to store and manage faculty information. You can add, delete, search, update, and display faculty members — all from a simple menu in the terminal.
-
+This is a **Faculty Management System** which has been built using C programming language. It keeps all the faculty data in a **Singly Linked List** and lets you add, remove, search, update, and view records all from a straightforward menu right in the terminal.
 ---
 
 ## 📌 What This Project Does
@@ -35,12 +34,12 @@ Project/
 
 Each faculty member is stored as a **node** in a linked list. Every node has:
 
-- **Name** — full name of the faculty
-- **Initial** — short initials (used for searching)
-- **Address** — where they live
-- **Phone Number** — contact number
-- **Designation** — their academic rank
-- **Department** — which department they belong to
+- **Name** : full name of the faculty
+- **Initial** : short initials (used for searching)
+- **Address** : where they live
+- **Phone Number** : contact number
+- **Designation** : their academic rank
+- **Department** : which department they belong to
 
 ### 🏷️ Designations
 When entering a designation, use these numbers:
@@ -77,11 +76,11 @@ When entering a department, use these codes:
 
 ## 🛠️ What I Used
 
-- **Singly Linked List** — to dynamically manage the faculty records
-- **Dynamic Memory Allocation** — `malloc`, `realloc`, and `free` for handling strings and nodes
-- **Enums** — to represent designations and departments cleanly
-- **Modular Code** — split into `.h` and `.c` files to keep things organized
-- **Input Validation** — so the program doesn't break if you enter a wrong designation or department code
+- **Singly Linked List** : to dynamically manage the faculty records
+- **Dynamic Memory Allocation** : `malloc`, `realloc`, and `free` for handling strings and nodes
+- **Enums** : to represent designations and departments cleanly
+- **Modular Code** : split into `.h` and `.c` files to keep things organized
+- **Input Validation** : so the program doesn't break if you enter a wrong designation or department code
 
 ---
 
@@ -99,18 +98,18 @@ When entering a department, use these codes:
 
 > You need **MSYS2 (UCRT64)** and **GCC** installed on your computer.
 
-**Step 1** — Open this file:
+**Step 1** : Open this file:
 ```
 C:\msys64\ucrt64.exe
 ```
 
-**Step 2** — Switch to the drive and folder where the project is. For example:
+**Step 2** : Switch to the drive and folder where the project is. For example:
 ```bash
 cd "............../Project"
 ```
 *(Replace the dots with your actual path to the Project folder)*
 
-**Step 3** — Compile and run using this command:
+**Step 3** : Compile and run using this command:
 ```bash
 gcc Main.c Faculty_Module.c -o faculty_module.exe -Wall
 ./faculty_module.exe
@@ -154,7 +153,7 @@ Just type a number and press **Enter** to pick an option. Follow the prompts to 
 - All inputs (Name, Address, Phone Number) are entered as text strings.
 - Designation must be a **positive integer between 1 and 5**.
 - Department must be one of the **valid department codes** (10–16, 20–24, 30–31).
-- The linked list grows **dynamically** — there is no fixed limit on the number of faculty records.
+- The linked list grows **dynamically** there is no fixed limit on the number of faculty records.
 - Memory is properly freed only when you **exit using option 0**.
 
 ---

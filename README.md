@@ -1,6 +1,7 @@
 # 🎓 Faculty Management System
 
-This is a **Faculty Management System** which has been built using C programming language. It keeps all the faculty data in a **Singly Linked List** and lets you add, remove, search, update, and view records all from a straightforward menu right in the terminal.
+This is a **Faculty Management System** which is built using **C**. It keeps all the faculty data in a **Singly Linked List** and lets you add, remove, search, update, and view records all from a straightforward menu right in the terminal.
+
 ---
 
 ## 📌 What This Project Does
